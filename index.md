@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+Hi, my name is Sarah.
 
-Maybe say a some things about yourself.
+I am a Master of Statistics student at North Carolina State University.
 
-Or maybe what you plan to blog about.
+This is my blog about Data Science.
