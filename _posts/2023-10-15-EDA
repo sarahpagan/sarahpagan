@@ -1,1 +1,19 @@
+# Exploratory Data Analysis
 
+## What is the goal of exploratory data analysis (EDA)?
+
+Typically, my overall goal in performing EDA is to determine whether or not a data set can provide valuable insight towards a research question, or set of research questions. Occasionally, I use EDA to determine, given the data, what questions are worth exploring.
+
+When working in R, my EDA strategy should contain the following steps:
+`
+1. Glance at the data frame using `head()`.
+2. Consider the structure of the data using `str()` or `attributes()`. How many columns are there? What is the class of each variable? How many rows (observations) are there?
+3. Observe how many missing values are present.
+4. Explore the unique values contained in each column. How many unique values does each variable have?
+5. Produce five number summaries for numeric variables. Produce contingency tables for categorical variables.
+6. Calculate correlations. Visualize correlations using `ggpairs()`.
+7. Use box plots to detect outliers. Consider why outliers exists. Are the data points valid or was there some data entry error? 
+
+Additional methods I think are important to EDA are, visualizing data distributions using grouping variables and hypothesis testing. Both of these methods help me think about statistics and models that may be appropriate for my data.
+
+Finally I’ll mention that I think it’s important to look for patterns and outliers **BEFORE** making any assumptions about the data or setting expectations for what trends I'll find. I find it’s more valuable to approach EDA without postulation if I want to gain the maximum benefit from the process.
