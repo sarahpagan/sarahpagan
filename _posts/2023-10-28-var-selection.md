@@ -1,6 +1,6 @@
 # Variable Selection
 
-## What variable selection techniques do you prefer and why?
+## What variable selection techniques do you prefer?
 
 The variable selection techniques I’ve employed the most have been backward elimination and forward selection. I’ve been taught these procedures in several statistics courses prior to ST 558 and these methods always made practical, intuitive sense to me. However, learning about the lack of theory behind them has inspired me to take stock in the many other possible variable selection techniques available to me. Furthermore, I’ve learned from the *“Variable selection – A review and recommendations for the practicing statistician”* paper that backward elimination and forward selection are only reliable if a small number of pre-specified models are compared. Otherwise, multiple testing becomes an issue. And these procedures fail to test if a variable is relevant in absolute, but rather test if it is relevant given other predictors in the model.  All said, I would like to keep these procedures as part of my toolkit and acknowledge their issues, while expanding my practice to include other variable selection techniques.
 
